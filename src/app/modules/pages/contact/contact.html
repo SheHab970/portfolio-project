@@ -1,1 +1,139 @@
-<p>contact works!</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Zyad Alsaeed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+  <div class="logo">ZYAD ALSAEED</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="active">Contact</a>
+        <a href="#contact" class="cta">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact" class="hero-section dark">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <h1 class="huge">CONTACT</h1>
+          <div class="badge">• BOOK A CALL</div>
+          <h2 class="lead">I'd love to hear from you!</h2>
+        </div>
+
+        <aside class="hero-right">
+          <form class="contact-form" action="#" method="post">
+            <label>Name <span class="req">*</span>
+              <input type="text" name="name" required>
+            </label>
+
+            <label>Email Address <span class="req">*</span>
+              <input type="email" name="email" required>
+            </label>
+
+            <label>Your Budget
+              <input type="text" name="budget">
+            </label>
+
+            <label>Description
+              <textarea name="description" rows="6"></textarea>
+            </label>
+
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </aside>
+      </div>
+
+      <div class="wrap contact-cards">
+        <div class="card">
+          <small>EMAIL ME</small>
+          <a href="mailto:Zyad.m.alsaeed@gmail.com" class="mail-link">Zyad.m.alsaeed@gmail.com</a>
+        </div>
+
+        <div class="card social">
+          <small>FIND ME</small>
+          <div class="icons">
+            <a class="social-link" href="https://github.com/Ozzy-Zy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/zyad-al-saeed/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section light">
+      <div class="wrap faq-grid">
+        <div class="faq-left">
+          <div class="badge light-badge">• FAQ</div>
+          <h3 class="faq-title">Questions &amp; Answers</h3>
+        </div>
+
+        <div class="faq-right">
+          <details open>
+            <summary>What services do you offer?</summary>
+            <p>I specialize in backend engineering: API design & implementation (REST, GraphQL, gRPC), microservices and service-oriented architectures, server-side application development, database schema design and migrations, background jobs and queueing, authentication/authorization, caching strategies, performance tuning, and production-grade monitoring and observability.</p>
+          </details>
+
+          <details>
+            <summary>How do you approach a new project</summary>
+            <p>I begin with discovery and requirements gathering, then produce a lightweight architecture and data model that balances scalability, reliability, and cost. I define API contracts (OpenAPI/GraphQL schema), choose an appropriate stack, and break work into iterative milestones with automated tests and CI/CD. I prioritize small, demonstrable deliveries and keep communication channels open for feedback and reviews.</p>
+          </details>
+
+          <details>
+            <summary>What is your project timeline?</summary>
+            <p>Timelines vary by scope. Typical examples: a single API endpoint or small feature can take 1–2 weeks; a complete backend for a medium web app (auth, core APIs, DB) is usually 4–8 weeks; large systems or microservice platforms take longer and are planned in phases. I provide a milestone-based schedule with estimated delivery dates after the discovery phase.</p>
+          </details>
+
+          <details>
+            <summary>How much do your services cost?</summary>
+            <p>I offer hourly, fixed-price for well-scoped projects, and retainer options for ongoing maintenance. Costs depend on scope, integrations, compliance requirements, and uptime/SLA needs. After an initial brief I provide a transparent proposal with line-item estimates and optional support plans.</p>
+          </details>
+
+          <details>
+            <summary>What platforms do you work with?</summary>
+            <p>I work across common backend stacks and cloud platforms: .Net and Java. Datastores include PostgreSQL, MySQL, Redis, and other NoSQL solutions. I use Docker, Kubernetes, serverless (AWS Lambda/GCP Cloud Functions), and CI/CD tooling (GitHub Actions, GitLab CI). I also integrate message queues (RabbitMQ, Kafka) and monitoring (Prometheus, Grafana, Sentry).</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section dark">
+        <div class="wrap cta-box">
+        <div class="small-badge">• HAVE PROJECT IN MIND?</div>
+        <h2 class="cta-head">Let's Turn your Ideas into Reality</h2>
+        <a class="cta-mail" href="mailto:Zyad.m.alsaeed@gmail.com">↳ Zyad.m.alsaeed@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <nav class="footer-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="tiny">© 2025</div>
+    </div>
+  </footer>
+
+  <a class="top-right" href="#contact">⇧</a>
+</body>
+</html>
