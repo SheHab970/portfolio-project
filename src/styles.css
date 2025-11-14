@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    /* background-color: #f4f4f4;
+    color: #333; */
+}
+:root{
+    --e-global-color-astglobalcolor0: #82ff1f;
+    --e-global-color-astglobalcolor1: #c9ff90;
+    --e-global-color-astglobalcolor2: #ffffff;
+    --e-global-color-astglobalcolor3: #f8f8f8;
+    --e-global-color-astglobalcolor4: #1a1a1a;
+    --e-global-color-astglobalcolor5: #111111;
+    --e-global-color-astglobalcolor6: #4f4f4f;
+    --e-global-color-astglobalcolor7: #1a1a1a;
+    --e-global-color-astglobalcolor8: #2f2f2f;
+}

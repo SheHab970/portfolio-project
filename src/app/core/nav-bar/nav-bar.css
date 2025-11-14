@@ -1,0 +1,47 @@
+nav{
+    background-color: var(--e-global-color-astglobalcolor5);
+    .nav-content{
+        padding: 14px 0px;
+
+        .logo{
+            .logo-img{
+
+            }
+        }
+        .links{
+            ul{
+                list-style: none;
+                margin: 0;
+                li{
+                    a{
+                        color: var(--e-global-color-astglobalcolor2);
+                        text-decoration: none;
+                        padding: 10px;
+                        display: inline-block;
+                        transition: 0.2s all;
+                       
+                        &:hover{
+                        color: var(--e-global-color-astglobalcolor1);
+                        cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        button{
+            background-color: var(--e-global-color-astglobalcolor5);
+            color: var(--e-global-color-astglobalcolor2);
+            border: 1px solid var(--e-global-color-astglobalcolor3);
+            padding: 8px 20px;
+            cursor: pointer;
+            transition: 0.2s all;
+            border-radius: 50px;
+
+            &:hover{
+                border-color: var(--e-global-color-astglobalcolor0);
+                color: var(--e-global-color-astglobalcolor5);
+                background-color: var(--e-global-color-astglobalcolor0);
+            }
+        }
+    }
+}
