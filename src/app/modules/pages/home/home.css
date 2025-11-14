@@ -1,0 +1,432 @@
+.home-page{
+    .hero{
+        background-color: var(--e-global-color-astglobalcolor5);
+        color: var(--e-global-color-astglobalcolor3);
+    }
+    .hero-body{
+        padding-top: 7rem;
+
+
+        .title{
+            h1{
+                font-size: 10.5rem;
+                text-transform: uppercase;
+                line-height: 90%;
+                padding: 33px 0px;
+                margin-bottom: 72px;
+                text-align: -webkit-center;
+            }
+        }
+        .hero-botton{
+            width: 100%;
+            .caed{
+                width: 35%;
+                padding-bottom: 14rem;
+                button{
+                    padding: 8px 18px;
+                    border: none;
+                    background-color: var(--e-global-color-astglobalcolor0);
+                    color: var(--e-global-color-astglobalcolor5);
+                    font-size: 17px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: var(--e-global-color-astglobalcolor1);
+                    }
+                }
+            }
+        }
+        .hero-img{
+            .img-container{
+                left: 28%;
+            }
+        }
+    }
+
+    .note{
+        position: relative;
+        border: 0.1px solid var(--e-global-color-astglobalcolor3);
+        padding: 4px 0px;
+        padding-left: 22px;
+        border-radius: 20px;
+        p{
+            margin: 0px;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding-right: 7px;
+        }::before{
+            content: " ";
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            left: 3%;
+            top: 29%;
+            position: absolute;
+            background-color: var(--e-global-color-astglobalcolor0);
+        }
+    
+    }
+
+    .choose-me{
+        background-color: var(--e-global-color-astglobalcolor3);
+        .choose-body{
+            padding: 8rem 0;
+            .title{
+                .note{
+                    border: 1px solid var(--e-global-color-astglobalcolor5);
+                }
+                h1{
+                    font-size: 4.5rem;
+                }
+            }
+            .cards{
+                .card{
+                    width: 30%;
+                    border: none;
+                    /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+                    padding: 3rem 2rem;
+                    border-radius: 15px;
+                    transition: all 0.3s ease;
+                    background-color: var(--e-global-color-astglobalcolor2);
+                    .icon{
+                        /* font-size: 3rem; */
+                        color: var(--e-global-color-astglobalcolor0);
+                        margin-bottom: 1rem;
+                        background-color: black;
+                        width: fit-content;
+                        border-radius: 50%;
+                        padding: 14px;
+                        i{
+                            font-size: 20px;
+                            
+                        }
+                    }
+                    h2{
+                        font-size: 2rem;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color: var(--e-global-color-astglobalcolor6);
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        transform: translateY(-10px);
+                        box-shadow: 0 0 25px rgba(0,0,0,0.3);
+                    }
+                }
+            }
+        }
+    }
+
+    .works{
+        background-color: var(--e-global-color-astglobalcolor5);
+        .works-body{
+            padding: 8rem 0;
+            .title{
+                width: 60%;
+                .note{
+                    color: var(--e-global-color-astglobalcolor3);
+                }
+                h1{
+                    font-size: 4.5rem;
+                    color: var(--e-global-color-astglobalcolor3);
+                }
+            }
+            .works-gallery{
+                .work-card{
+                    .caed-header{
+                        padding: 12px 20px;
+                    
+                    }
+                    border: 0.01px solid var(--e-global-color-astglobalcolor3);
+                    color: var(--e-global-color-astglobalcolor3);
+                    width: 48%;
+                    border-radius: 15px;
+                    overflow: hidden;
+                    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        transition: all 0.3s ease;
+                        opacity: 0.5;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            button{
+                margin-top: 4rem;
+                padding: 10px 22px;
+                border: none;
+                background-color: var(--e-global-color-astglobalcolor0);
+                color: var(--e-global-color-astglobalcolor5);
+                font-size: 17px;
+                border-radius: 25px;
+                cursor: pointer;
+                &:hover{
+                    background-color: var(--e-global-color-astglobalcolor1);
+                }
+            }   
+        }
+    }
+
+    .process{
+        background-color: var(--e-global-color-astglobalcolor3);
+        .process-body{
+            padding: 8rem 0;
+            .title{
+                .note{
+                    border: 1px solid var(--e-global-color-astglobalcolor5);
+                }
+                h1{
+                    font-size: 4.5rem;
+                }
+            }
+            button{
+                margin-top: 1rem;
+                padding: 10px 22px;
+                border: none;
+                background-color: var(--e-global-color-astglobalcolor0);
+                color: var(--e-global-color-astglobalcolor5);
+                font-size: 17px;
+                border-radius: 25px;
+                cursor: pointer;
+                &:hover{
+                    background-color: var(--e-global-color-astglobalcolor1);
+                }
+                
+            }   
+            .right{
+                .process-steps{
+                    .step{
+                       border-bottom: 1px solid var(--e-global-color-astglobalcolor7);
+                        .step-info{
+                            h2{
+                                font-size: 2rem;
+                                
+                            }
+                            p{
+                                font-size: 1rem;
+                                color: var(--e-global-color-astglobalcolor6);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .offers{
+        background-color: var(--e-global-color-astglobalcolor5);
+        .offers-body{
+            padding: 8rem 0;
+            .title{
+                width: 60%;
+                .note{
+                    color: var(--e-global-color-astglobalcolor3);
+                }
+                h1{
+                    font-size: 4.5rem;
+                    color: var(--e-global-color-astglobalcolor3);
+                }
+            }
+            .offers-cards{
+                .offer-card{
+                    color: var(--e-global-color-astglobalcolor5);
+                    border: 0.01px solid var(--e-global-color-astglobalcolor3);
+                    width: 30%;
+                    background-color: var(--e-global-color-astglobalcolor3);
+                    border-radius: 15px;
+                    overflow: hidden;
+                    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                    padding: 4.5rem 2rem;
+                    .icon{
+                        background-color: var(--e-global-color-astglobalcolor5);
+                        width: fit-content;
+                        border-radius: 50%;
+                        padding: 14px;
+                        margin-bottom: 1rem;
+                        i{
+                            font-size: 40px;
+                            color: var(--e-global-color-astglobalcolor0);
+                        }
+                    }
+                    h2{
+                        font-size: 2rem;
+                        margin: 0;
+                    }
+                    p{
+                        font-size: 1rem;
+                        color: var(--e-global-color-astglobalcolor6);
+                    }
+                    .feutures{
+                        margin-top: 1rem;
+                        ul{
+                            list-style-type: none;
+                            padding: 0;
+                        }
+                        li{
+                            font-size: 1rem;
+                            color: var(--e-global-color-astglobalcolor6);
+                            margin-bottom: 0.5rem;
+                            padding: 10px 0px;
+                            border-bottom: 1px solid var(--e-global-color-astglobalcolor8);
+                        }
+                    }
+                    .link{
+                        button{
+                        
+                            padding: 8px 18px;
+                            border: none;
+                            background-color: var(--e-global-color-astglobalcolor0);
+                            color: var(--e-global-color-astglobalcolor5);
+                            font-size: 17px;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            &:hover{
+                                background-color: var(--e-global-color-astglobalcolor1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about{
+        background-color: var(--e-global-color-astglobalcolor3);
+        .about-body{
+            padding: 8rem 0;
+            .title{
+                .note{
+                    border: 1px solid var(--e-global-color-astglobalcolor5);
+                }
+                h1{
+                    font-size: 5rem;
+                }
+            }
+            .social-icon{
+                margin-top: 2rem;
+                a{
+                    background-color: var(--e-global-color-astglobalcolor5);
+                    width: fit-content;
+                    border-radius: 50%;
+                    padding: 15px;
+                    margin-right: 1rem;
+                    transition: all 0.3s ease;
+                    i{
+                        font-size: 20px;
+                        color: var(--e-global-color-astglobalcolor3);
+                    }
+                    &:hover{
+                        background-color: var(--e-global-color-astglobalcolor0);
+                        i{
+                            color: var(--e-global-color-astglobalcolor5);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .percentage{
+            background-color: transparent;
+            padding: 4rem 0;
+            background-image: linear-gradient(180deg, var(--e-global-color-astglobalcolor0) 0%, var(--e-global-color-astglobalcolor1) 100%);
+            .percentage-body{
+                .percentage-card{
+                    width: 30%;
+                    h1{
+                        font-size: 22px;
+                        color: var(--e-global-color-astglobalcolor5);
+                    }
+                    h2{
+                        font-size: 5rem;
+                    }
+                    .bor{
+                        border-top: 1px solid var(--e-global-color-astglobalcolor5);
+                    }
+                }
+            }
+        }
+    }
+
+    .stories{
+        background-color: var(--e-global-color-astglobalcolor5);
+        .stories-body{
+            padding: 8rem 0;
+            .story-card{
+                border: 1px solid var(--e-global-color-astglobalcolor6);
+                width: 32%;
+                border-radius: 10px;
+                padding: 2rem;
+                transition: all 0.3s ease;
+                color: var(--e-global-color-astglobalcolor3);
+                background-color: var(--e-global-color-astglobalcolor7);
+                .stars{
+                    i{
+                        padding: 0px 12px;
+                        color: var(--e-global-color-astglobalcolor0);
+                    }
+                }
+                .content{
+                    padding-bottom: 5rem;
+                }
+                &:hover{
+                    box-shadow: 0 0 25px rgba(185, 185, 185, 0.3);
+                    transform: translateY(-10px);
+                }
+            }
+            .profile{
+                padding-top: 20px;
+                border-top: 1px solid var(--e-global-color-astglobalcolor6);
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-right: 1rem;
+                }
+                h2{
+                    font-size: 1rem;
+                    margin: 0;
+                
+                }
+                p{
+                    margin: 0;
+                    font-size: 1rem;
+                    color: var(--e-global-color-astglobalcolor6);}
+            }
+        }
+    }
+
+    .idea{
+        background-color: var(--e-global-color-astglobalcolor7);
+        color: var(--e-global-color-astglobalcolor3);
+        .idea-body{
+            padding: 6rem 0;
+            h1{
+                font-size: 4.5rem;
+            }
+            .idea-info{
+                background-color: var(--e-global-color-astglobalcolor5);
+                padding: 3rem 8rem;
+                border-radius: 10px;
+                h1{
+                    font-size: 5rem;
+                    text-align: -webkit-center;
+                }
+                .email{
+                    p{
+                        font-size: 2.5rem;
+                        text-align: center;
+                        margin-top: 1rem;
+                        border-bottom: 2px solid var(--e-global-color-astglobalcolor6);
+                    }
+                }
+            }
+        }
+    }
+}

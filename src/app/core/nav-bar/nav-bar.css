@@ -2,6 +2,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
     background-color: var(--e-global-color-astglobalcolor5);
     .nav-content{
         padding: 14px 0px;
