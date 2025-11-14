@@ -1,4 +1,7 @@
 nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: var(--e-global-color-astglobalcolor5);
     .nav-content{
         padding: 14px 0px;
@@ -24,6 +27,9 @@ nav{
                         color: var(--e-global-color-astglobalcolor1);
                         cursor: pointer;
                         }
+                    }
+                    .link-active{
+                        color: var(--e-global-color-astglobalcolor0);
                     }
                 }
             }
