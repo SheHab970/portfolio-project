@@ -18,4 +18,12 @@ body {
     --e-global-color-astglobalcolor6: #4f4f4f;
     --e-global-color-astglobalcolor7: #1a1a1a;
     --e-global-color-astglobalcolor8: #2f2f2f;
+
+    /* Ozzy-style */
+    --bg:#0b0b0b;
+    --panel:#141414;
+    --muted:#bfbfbf;
+    --white:#ffffff;
+    --accent:#7CFF3A; /* neon green */
+    --max-width:1100px;
 }
