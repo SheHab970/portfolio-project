@@ -1,0 +1,67 @@
+    .idea{
+        background-color: var(--e-global-color-astglobalcolor7);
+        color: var(--e-global-color-astglobalcolor3);
+        .idea-body{
+            padding-top: 6rem ;
+            h1{
+                font-size: 4.5rem;
+            }
+            .idea-info{
+                background-color: var(--e-global-color-astglobalcolor5);
+                padding: 3rem 8rem;
+                border-radius: 10px;
+                .note{
+                    position: relative;
+                    border: 0.1px solid var(--e-global-color-astglobalcolor3);
+                    padding: 4px 0px;
+                    padding-left: 22px;
+                    border-radius: 20px;
+                    p{
+                        margin: 0px;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        padding-right: 7px;
+                    }::before{
+                        content: " ";
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        left: 3%;
+                        top: 29%;
+                        position: absolute;
+                        background-color: var(--e-global-color-astglobalcolor0);
+                    }
+                
+                }
+                h1{
+                    font-size: 5rem;
+                    text-align: -webkit-center;
+                }
+                .email{
+                    p{
+                        font-size: 2.5rem;
+                        text-align: center;
+                        margin-top: 1rem;
+                        border-bottom: 2px solid var(--e-global-color-astglobalcolor6);
+                    }
+                }
+            }
+        }
+        .links{
+            padding: 2rem 0;
+            ul{
+                list-style: none;
+                margin: 0;
+            }
+            li{
+                a{
+                    text-decoration: none;
+                    transition: all 0.3s ease-in-out;
+                    color: var(--e-global-color-astglobalcolor3);
+                    &:hover{
+                        color: var(--e-global-color-astglobalcolor0);
+                    }
+                }
+            }
+        }
+    }
