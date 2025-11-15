@@ -1,23 +1,17 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-h1,
-h2,
-h3,
-p,
-li {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-main {
+.service-body {
     background-color: black;
     color: white;
+
+    h1{
+        font-size: 12rem;
+        padding: 8rem 0;
+        text-transform: uppercase;
+    }
 }
 
 .services-section {
     padding: 80px 20px;
+    padding-top: 0;
 }
 
 .service-card {
@@ -67,17 +61,18 @@ main {
 
 .price-button {
     display: inline-block;
-    background-color: green;
-    color: black;
+    background-color: var(--e-global-color-astglobalcolor0);
+    color: var(--e-global-color-astglobalcolor5);
     padding: 12px 30px;
     border-radius: 5px;
     text-decoration: none;
     margin-top: 20px;
     transition: background-color 0.3s;
+    transition: all 0.3s;
 }
 
 .price-button:hover {
-    background-color: #357abd;
+    background-color: var(--e-global-color-astglobalcolor1);
 }
 
 .service-image {
