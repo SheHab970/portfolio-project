@@ -1,0 +1,136 @@
+.projects-page {
+    .works{
+        background-color: var(--e-global-color-astglobalcolor5);
+        .works-body{
+            padding: 8rem 0;
+            .title{
+                h1{
+                    text-transform: uppercase;
+                    font-size: 12rem;
+                    color: var(--e-global-color-astglobalcolor3);
+                }
+            }
+            .menu{
+                ul{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    padding-bottom: 30px;
+                    li{
+                        font-size: 1.5rem;
+                        color: var(--e-global-color-astglobalcolor6);
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                        &.active{
+                            font-weight: bold;
+                            color: var(--e-global-color-astglobalcolor3);
+                            border-bottom: 2px solid var(--e-global-color-astglobalcolor3);
+                            padding-bottom: 4px;
+                        }
+                        &:hover{
+                            color: var(--e-global-color-astglobalcolor3);
+                        }
+                    }
+                }
+            }
+            .works-gallery{
+                .work-card{
+                    .caed-header{
+                        padding: 12px 20px;
+                        h2{
+                            font-size: 18px;
+                            padding: 20px 0;
+                        }
+                    
+                    }
+                    border: 0.01px solid var(--e-global-color-astglobalcolor3);
+                    color: var(--e-global-color-astglobalcolor3);
+                    width: 48%;
+                    border-radius: 15px;
+                    overflow: hidden;
+                    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        transition: all 0.3s ease;
+                        opacity: 0.5;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+
+    .process{
+        background-color: var(--e-global-color-astglobalcolor3);
+        .process-body{
+            padding: 8rem 0;
+            .title{
+                .note{
+                    position: relative;
+                    border: 1px solid var(--e-global-color-astglobalcolor5);
+                    padding: 4px 0px;
+                    padding-left: 22px;
+                    border-radius: 20px;
+                    p{
+                        margin: 0px;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        padding-right: 7px;
+                    }::before{
+                        content: " ";
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        left: 3%;
+                        top: 29%;
+                        position: absolute;
+                        background-color: var(--e-global-color-astglobalcolor0);
+                    }
+                
+                }
+                h1{
+                    font-size: 4.5rem;
+                }
+            }  
+            .right{
+                width: 70%;
+                .process-steps{
+                    .step{
+                       border-bottom: 1px solid var(--e-global-color-astglobalcolor7);
+                        .step-info{
+                            margin-bottom: 10px;
+                            summary{
+                                list-style: none;
+                                cursor: pointer;
+                                outline: none;
+                                padding-bottom: 10px;
+                                p{
+                                    font-size: 1.2rem;
+
+                                }
+                                i{
+                                    color: var(--e-global-color-astglobalcolor3);
+                                    background-color: var(--e-global-color-astglobalcolor5);
+                                    padding: 3px 0px;
+                                    font-size: 24px;
+                                    border-radius: 50%;
+                                }
+                            }
+                            h2{
+                                font-size: 2rem;
+                                
+                            }
+                            p{
+                                font-size: 1rem;
+                                color: var(--e-global-color-astglobalcolor6);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
